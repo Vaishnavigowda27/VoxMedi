@@ -1,0 +1,1 @@
+ALTER TABLE "sessionChatTable" ADD COLUMN "selectedDoctor" varchar(255);
