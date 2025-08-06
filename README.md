@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🩺 AI Medical Voice Agent
 
-## Getting Started
+An intelligent voice-powered medical assistant built to assist doctors and patients through conversational AI.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎤 Voice-enabled communication using Vapi
+- 👨‍⚕️ Multiple voice profiles for different doctors
+- 💬 Natural, real-time conversations
+- 🌐 Built with Next.js and integrated APIs
+- 🔒 Secure and scalable architecture
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Voice API:** [Vapi](https://www.vapi.ai/)
+- **Backend (Optional):** Node.js / Express (if used)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 How It Works
 
-## Learn More
+1. User speaks a query (e.g., symptoms, medication)
+2. Vapi processes the voice and converts it to text
+3. AI backend generates a response
+4. Voice response is sent back to the user
+5. Switch between different doctor voices for specialized conversations
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
+/ai-medical-voice-agent
+├── pages/ # Next.js routes
+├── components/ # Reusable React components
+├── public/ # Static assets (fallback images, etc.)
+├── styles/ # Tailwind/global CSS
+└── vapi/ # Vapi config & logic
