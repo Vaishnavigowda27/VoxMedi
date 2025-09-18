@@ -1,6 +1,7 @@
 # 🩺 AI Medical Voice Agent
 
-An intelligent voice-powered medical assistant built to assist doctors and patients through conversational AI.
+An intelligent voice-powered medical assistant built to assist doctors and patients through conversational AI.  
+🔗 **Live Demo:** [MediVox](https://medivox.netlify.app/) | [GitHub Repo](https://github.com/Vaishnavigowda27/ai-medical-voice-agent)
 
 ## 🚀 Features
 
@@ -18,16 +19,16 @@ An intelligent voice-powered medical assistant built to assist doctors and patie
 
 ## 🧠 How It Works
 
-1. User speaks a query (e.g., symptoms, medication)
-2. Vapi processes the voice and converts it to text
-3. AI backend generates a response
-4. Voice response is sent back to the user
+1. User speaks a query (e.g., symptoms, medication)  
+2. Vapi processes the voice and converts it to text  
+3. AI backend generates a response  
+4. Voice response is sent back to the user  
 5. Switch between different doctor voices for specialized conversations
 
 ## 📁 Project Structure
-/ai-medical-voice-agent
-├── pages/ # Next.js routes
-├── components/ # Reusable React components
-├── public/ # Static assets (fallback images, etc.)
-├── styles/ # Tailwind/global CSS
+/ai-medical-voice-agent  
+├── pages/ # Next.js routes  
+├── components/ # Reusable React components  
+├── public/ # Static assets (fallback images, etc.)  
+├── styles/ # Tailwind/global CSS  
 └── vapi/ # Vapi config & logic
